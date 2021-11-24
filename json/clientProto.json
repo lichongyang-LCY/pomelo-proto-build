@@ -1,0 +1,20 @@
+{
+  "xxxxxxxxx1": {
+    "required string token": 1,
+    "required uInt32 uid": 2,
+    "required uInt32 userType": 3,
+    "required string cchOpenID": 4,
+    "required DeviceInfo deviceInfo": 5,
+    "required string openid": 6,
+    "required string version": 7,
+    "required string platform": 8,
+    "message DeviceInfo": {
+      "required string model": 1,
+      "required string SDKVersion": 2,
+      "required string language": 3,
+      "required string platform": 4,
+      "required string system": 5,
+      "required string version": 6
+    }
+  }
+}

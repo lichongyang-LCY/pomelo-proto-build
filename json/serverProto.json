@@ -1,0 +1,24 @@
+{
+  "xxxxxxxxx1": {
+    "required uInt32 code": 1,
+    "optional Data data": 2,
+    "message data": {
+      "required uInt32 roleID": 1,
+      "required string name": 2,
+      "required uInt32 lv": 3,
+      "required uInt32 vipLv": 4,
+      "required uInt32 exp": 5,
+      "required uInt32 crystal": 6,
+      "required uInt32 copper": 7
+    }
+  },
+  "xxxxxxxxx2": {
+    "required uInt32 roleID": 1,
+    "required string name": 2,
+    "required uInt32 lv": 3,
+    "required uInt32 vipLv": 4,
+    "required uInt32 exp": 5,
+    "required uInt32 crystal": 6,
+    "required uInt32 copper": 7
+  }
+}

@@ -1,0 +1,119 @@
+//协议文件  (1.此文件中所有标点符合都为英文半角符号  2.每条协议须用;结尾,否则转换有问题);
+ 
+/** 进入游戏请求*/
+request 'xxxxxxxxx1'
+{
+	"required string token":  1,         // 登陆服返回token
+    "required uInt32 uid":    2,     	 // 账号id
+	"required uInt32 userType":  3,      // 用户类型   3微信小程序
+	"required string cchOpenID":  4,     // 渠道账号
+	"required DeviceInfo deviceInfo": 5, // 设备信息
+	"required string openid":  6,        // 登录账号
+	"required string version": 7,      	 // 服务器版本号
+	"required string platform": 8,	     // 平台(渠道)
+	"message DeviceInfo": {
+		"required string model": 1,	     // 机型
+		"required string SDKVersion": 2, // SDK版本号
+		"required string language": 3,   // 语言
+		"required string platform": 4,	 // 平台
+        "required string system": 5,	 // 系统
+		"required string version": 6	 // 系统版本
+	}
+};
+
+/** 进入游戏返回*/
+response 'xxxxxxxxx1'
+{
+	"required uInt32 code": 1,               // 状态码
+	"optional Data data": 2,        		 // 消息体 
+    "message data":  {                       // 消息内容
+		"required uInt32 roleID":    1,   	 // 角色id
+		"required string name":    	 2,   	 // 角色名字
+		"required uInt32 lv":    	 3,   	 // 角色等级
+		"required uInt32 vipLv":     4,   	 // vip等级
+		"required uInt32 exp":    	 5,   	 // 角色经验
+		"required uInt32 crystal":   6,   	 // 水晶
+		"required uInt32 copper":    7   	 // 金币
+	}
+};
+ 
+
+/** 推送玩家数据*/
+push 'xxxxxxxxx2'
+{	
+		"required uInt32 roleID":    1,   	 // 角色id
+		"required string name":    	 2,   	 // 角色名字
+		"required uInt32 lv":    	 3,   	 // 角色等级
+		"required uInt32 vipLv":     4,   	 // vip等级
+		"required uInt32 exp":    	 5,   	 // 角色经验
+		"required uInt32 crystal":   6,   	 // 水晶
+		"required uInt32 copper":    7   	 // 金币
+};
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
